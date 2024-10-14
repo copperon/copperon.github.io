@@ -5,7 +5,22 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <?php include "header.html"; ?>
+    <header>
+        <div class="hamburger-icon" onclick="hamburgerMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h3 class="title">CopperisNot</h3>
+        <nav id="header-nav">
+            <ul>
+                <li><a href="/#home">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#videos">Videos</a></li>
+                <li><a href="/#games">Games</a></li>
+            </ul>
+        </nav>
+    </header>
     <div id="home" class="main-box">
         <h1 class="large-title">Who is CopperisNot?</h1>
         <div class="main-content">
@@ -76,6 +91,13 @@
             "Not Ultrakill." This project is yet to have a devlog and is not open-source as of now.</p>
         </div>
     </div>
-    <?php include "footer.html"; ?>
+    <footer>
+        <h3 class="title">Footer Made Specifically So That You Can Scroll Down Further to Read the Above Content Easier™</h3>
+    </footer>
+    <script>
+    function hamburgerMenu() {
+        document.getElementById("header-nav").classList.toggle("open");
+    }
+    </script>
 </body>
 </html>
