@@ -1,0 +1,22 @@
+<header>
+    <div class="hamburger-icon" onclick="hamburgerMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <h3 class="title">CopperisNot</h3>
+    <nav id="header-nav">
+        <ul>
+            <li><a href="/#home">Home</a></li>
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#videos">Videos</a></li>
+            <li><a href="/#games">Games</a></li>
+        </ul>
+    </nav>
+</header>
+
+<script>
+function hamburgerMenu() {
+    document.getElementById("header-nav").classList.toggle("open");
+}
+</script>

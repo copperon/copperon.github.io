@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=0.75, user-scalable=yes">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <?php include "header.html"; ?>
+    <div id="home" class="main-box">
+        <h1 class="large-title">Who is CopperisNot?</h1>
+        <div class="main-content">
+            <p>
+            I am an independent learning programmer, artist, graphic designer, composer and game designer
+            that specializes in video game development.
+            </p>
+            <div class="center-box">
+                <a href="https://www.youtube.com/@copperisnot"><button>YouTube</button></a>
+                <a href="https://www.github.com/copperisnot"><button>GitHub</button></a>
+                <a href="https://bsky.app/profile/copperisnot.bsky.social"><button>Bluesky</button></a>
+            </div>
+        </div>
+   </div>
+   <div id="about" class="main-box">
+        <h1 class="large-title">About</h1>
+        <div class="main-content">
+            <h3>Programming</h3>
+            <p>I have worked with multiple programming languages to various degrees, including C, C++,
+            Python, GDScript, Bash, HTML, CSS and Javascript. Most of the projects made with the
+            aforementioned languages have been either games or websites.</p>
+            <h3>Tools</h3>
+            <p>I have used tools such as Blender, Asesprite, Photoshop, Pixelmator Pro, DaVinci Resolve
+             Studio, Visual Studio Code, Vim, Godot, Unity Logic Pro and FL Studio for my projects.</p>
+            <h3>Interests</h3>
+            <p>My creative projects are most influenced by works such as Toby Fox's Undertale and Deltarune; Shigesato Itoi's Earthbound/Mother series; Valve's Portal 1&2; Arsi "Hakita" Patala's Ultrakill; Pink Floyd's musical works; PixelzwithaZ, PinoPrime, ScottTheWoz, jdh, raxdflipnote, Sr. Pelo, AZALI and TomSka's YouTube content and many more artists.</p>
+        </div>
+    </div>
+    <div id="videos" class="main-box">
+        <h1 class="large-title">Videos</h1>
+        <div class="main-content">
+            <h3>Animations</h3>
+            <p>Animation has become the most commonly produced medium on my YouTube channel.
+            I've found it to be a great way to implement much of my interests into a neat package.
+            Over the summer of 2024, I uploaded many short animated skits made in Flipnote Studio on
+            my New Nintendo 3DS. These skits currently stand as the most viewed videos on my channel.
+            I have recently however moved over to 3D animated videos. This new style of content comes with a 
+            higher production quality than the previous 2D animations and is a more versatile 
+            creative outlet with the greater array of features I have at my disposal thanks to Blender's tools.</p>
+            <p>Here are some examples of the animations I make. More can be found on my YouTube channel.</p>
+            <div class="row-box">
+                <iframe class="youtube" src="https://www.youtube.com/embed/gRo-NgxRf54"></iframe>
+                <iframe class="youtube" src="https://www.youtube.com/embed/C13ZubMO-YU"></iframe>
+            </div>
+            <div class="row-box">
+                <iframe class="youtube" src="https://www.youtube.com/embed/-9fafz4oZhw"></iframe>
+                <iframe class="youtube" src="https://www.youtube.com/embed/Hl_UTD8KPQg"></iframe>
+            </div>
+            <h3>Devlogs</h3>
+            <p>My older videos consist of various devlogs of some of my small game projects. These videos
+            are all short with little to no narration on them. They were a simple method to show the progress
+            of whatever I had been working on.</p>
+            <p>Here is a couple of the said devlogs. Like the animations, more can be found on my YouTube channel.</p>
+            <div class="row-box">
+                <iframe class="youtube" src="https://www.youtube.com/embed/To0WG21gSDQ"></iframe>
+                <iframe class="youtube" src="https://www.youtube.com/embed/I_pJD5vCtB8"></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="games" class="main-box">
+        <h1 class="large-title">Games</h1>
+        <div class="main-content">
+            <p>I have made numerous small game projects over my time developing, although most of them are
+            incomplete and kept unreleased. A few however can be found on my GitHub page are are logged on
+            my YouTube channel as mentioned above. These projects include "Byte Eversor" and "Return to Earth/Portal 
+            Dimensions," though they are closer to being conceptual demos than actual games. I am currently
+            working on continuing the development of PixelzwithaZ's FPS project with the working title of 
+            "Not Ultrakill." This project is yet to have a devlog and is not open-source as of now.</p>
+        </div>
+    </div>
+    <?php include "footer.html"; ?>
+</body>
+</html>
