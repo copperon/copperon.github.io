@@ -13,8 +13,12 @@
 
 a {
 	color: inherit;
-	
+    margin: inherit;
     text-decoration: inherit;
+}
+
+.fixadisplay {
+    display: inherit;
 }
 
 p {
@@ -174,43 +178,72 @@ header li a:hover {
     height: auto;
 }
 
-@media only screen and (max-width: 768px) {
-    .main-box {
-        scroll-margin-top: 400px;
+.social-button {
+        color: var(--accentfg);
+        outline: 4px solid var(--accentfg);
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
     }
 
-    header {
-        flex-flow: column;
-    }
+.social-button:hover {
+    color: var(--fg);
+    outline-color: var(--fg);
+}
 
-    header h3.title {
-        position: absolute;
-        top: 33px;
-    }
+.social-button:hover img {
+    filter: brightness(1000%);
+}
 
-    header nav:not(.open) {
-        display: none;
-    }
-    
-    header nav.open ul {
-        flex-flow: column;
-        padding-bottom: 64px;
-    }
+.center {
+    text-align: center;
+}
 
-    .main-box {
-        width: 100%;
-        padding: 50px;
-    }
+.icon {
+    height: .75em;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
-    .hamburger-icon {
-        display: block;
-    }
+    @media only screen and (max-width: 768px) {
+        .main-box {
+            scroll-margin-top: 400px;
+        }
 
-    h1 {
-        font-size: 2em;
-    }
-    
-    p, h3:not(.title) {
-        font-size: 1.5em;
+        header {
+            flex-flow: column;
+        }
+
+        header h3.title {
+            position: absolute;
+            top: 33px;
+        }
+
+        header nav:not(.open) {
+            display: none;
+        }
+        
+        header nav.open ul {
+            flex-flow: column;
+            padding-bottom: 64px;
+        }
+
+        .main-box {
+            width: 100%;
+            padding: 50px;
+        }
+
+        .hamburger-icon {
+            display: block;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+        
+        p, h3:not(.title) {
+            font-size: 1.5em;
     }
 }
